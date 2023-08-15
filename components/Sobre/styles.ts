@@ -26,6 +26,7 @@ export const ContentArea = styled.div`
 
   h1 {
     color: #000;
+    width: 100%;
   }
 `;
 
@@ -44,6 +45,12 @@ export const TopContent = styled.div`
     color: #000;
     font-size: 22px;
   }
+`;
+
+export const ImagePerfil = styled.img`
+  width: 150px;
+  height: 150px;
+  clip-path: circle();
 `;
 
 export const LeftContent = styled.div``;
