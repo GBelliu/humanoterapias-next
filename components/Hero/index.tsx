@@ -1,23 +1,19 @@
 "use client";
 
-import { Container, Content, LeftContent } from "./styles";
+import { Container, Content } from "./styles";
 
 export function Hero() {
   return (
     <Container>
       <Content>
-        <LeftContent>
-          <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
-          <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-            praesentium minima numquam explicabo id, ex voluptate et quia
-            doloribus architecto fugit ullam excepturi illum, repellendus
-          </h2>
-          <button>
-            <p>Marcar consulta</p>
-          </button>
-        </LeftContent>
-        <img src="./mesa.jpg" alt="" />
+        <h1>Metodologia Humanoterapeuta</h1>
+        <h2>
+          "Ajudando pessoas a reconhecerem suas forças e valores, despertando
+          autoconfiança para buscarem o que as fazem felizes"
+        </h2>
+        <button>
+          <p>Saiba mais</p>
+        </button>
       </Content>
     </Container>
   );
