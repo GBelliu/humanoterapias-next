@@ -22,8 +22,8 @@ export function Hero() {
             <span>Atendimento on-line</span>
           </h2>
           <p>
-            "Ajudando pessoas a reconhecerem suas forças e valores, despertando
-            autoconfiança para buscarem o que as fazem felizes"
+            Ajudando pessoas a reconhecerem suas forças e valores, despertando
+            autoconfiança para buscarem o que as fazem felizes
           </p>
           <button>
             <p>Agendar consulta</p>
