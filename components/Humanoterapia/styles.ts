@@ -2,11 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  background-color: transparent;
+  background-color: #fff;
   height: fit-content;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
+  padding: 75px 0;
+  gap: 40px;
+  h1 {
+    color: black;
+  }
 `;
 export const Content = styled.div`
   max-width: 964px;
@@ -18,25 +24,24 @@ export const Content = styled.div`
   grid-template-columns: 1fr 1fr;
 `;
 export const LeftContent = styled.div`
-  display: flex;
-  flex-flow: column;
-  gap: 10px;
-  h1 {
-    color: black;
-  }
-  p {
-    color: black;
-  }
-`;
-export const RightContent = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  img {
+  div {
     width: 100%;
-    height: 300px;
-    object-fit: contain;
-    border-radius: 40px;
+    height: 400px;
+    background-color: #dbdbdb;
+  }
+`;
+export const RightContent = styled.div`
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  h2 {
+    color: black;
+  }
+  p {
+    color: black;
   }
 `;

@@ -14,7 +14,6 @@ export const Content = styled.div`
   width: 100%;
   height: fit-content;
   display: flex;
-  flex-flow: column;
   align-items: center;
   padding: 75px 0;
   gap: 25px;
@@ -56,3 +55,13 @@ export const Content = styled.div`
     border-radius: 10px;
   }
 `;
+
+export const LeftContent = styled.div`
+  width: 250px;
+  div {
+    background-color: gray;
+    height: 500px;
+    width: 100%;
+  }
+`;
+export const RightContent = styled.div``;
