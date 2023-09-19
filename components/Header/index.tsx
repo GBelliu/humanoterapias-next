@@ -9,7 +9,7 @@ export function Header() {
   return (
     <Container>
       <Content>
-        <h1>Logo</h1>
+        <img src="./logo2.png" alt="" />
         <ItemsMenu>
           <Link href={""}>Sobre mim</Link>
           <Link href={""}>Psicoterapias Holísticas</Link>

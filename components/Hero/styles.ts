@@ -7,12 +7,16 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: 490px;
+  background-image: url("./fundoheroedit.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 export const Content = styled.div`
   max-width: 964px;
   width: 100%;
-  height: fit-content;
+  height: 100%;
   display: flex;
   align-items: center;
   padding: 75px 0;
@@ -52,16 +56,26 @@ export const Content = styled.div`
   }
   img {
     width: 100%;
+    height: 100%;
     border-radius: 10px;
   }
 `;
 
 export const LeftContent = styled.div`
   width: 250px;
+  height: 100%;
   div {
     background-color: gray;
-    height: 500px;
+    height: 400px;
     width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 `;
-export const RightContent = styled.div``;
+export const RightContent = styled.div`
+  height: 100%;
+`;
