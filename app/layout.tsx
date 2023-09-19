@@ -1,9 +1,24 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Roboto, Poppins, Didact_Gothic, Inter } from "next/font/google";
 import StyledComponentsRegistry from "./lib/registry";
 const roboto = Roboto({
   weight: ["300", "400", "500", "700", "100"],
+  subsets: ["latin"],
+});
+
+const poppins = Poppins({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+});
+
+const didact = Didact_Gothic({
+  weight: ["400"],
+  subsets: ["latin"],
+});
+
+const inter = Inter({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
 
@@ -20,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <StyledComponentsRegistry>
-        <body className={roboto.className}>{children}</body>
+        <body className={inter.className}>{children}</body>
       </StyledComponentsRegistry>
     </html>
   );

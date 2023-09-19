@@ -13,6 +13,9 @@ export const Container = styled.div`
   h1 {
     color: black;
   }
+  p {
+    color: black;
+  }
 `;
 export const Content = styled.div`
   max-width: 964px;
@@ -23,6 +26,15 @@ export const Content = styled.div`
   align-items: center;
   grid-template-columns: 1fr 1fr;
 `;
+
+export const TextContainer = styled.div`
+  display: flex;
+  flex-flow: column;
+  max-width: 964px;
+  width: 100%;
+  gap: 15px;
+`;
+
 export const TextContent = styled.div`
   display: flex;
   flex-flow: column;
@@ -43,5 +55,11 @@ export const ImageContent = styled.div`
     width: 100%;
     height: 400px;
     background-color: #dbdbdb;
+    display: flex;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
   }
 `;
