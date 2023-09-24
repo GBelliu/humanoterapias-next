@@ -37,46 +37,20 @@ export const Content = styled.div`
 `;
 
 export const LeftContent = styled.div`
-  width: 60%;
+  width: 300px;
   height: 100%;
-  display: flex;
-  flex-flow: column;
-  gap: 25px;
-  h1 {
-    font-size: 48px;
-    color: #fff;
-    font-weight: 700;
-    line-height: normal;
-  }
+  div {
+    height: 400px;
+    width: 100%;
 
-  p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-
-  button {
-    width: fit-content;
-    padding: 15px 35px;
-    background-color: #fff;
-    color: #040439;
-    font-size: 18px;
-    font-weight: 500;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.4s all ease-in-out;
-    box-shadow: 0px 5px 7px -3px rgba(255, 255, 255, 0.2);
-    &:hover {
-      transform: scale(1.03) translateZ(0);
-    }
-    &:active {
-      transform: scale(0.95) translateZ(0) !important;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 `;
 export const RightContent = styled.div`
-  width: 40%;
   height: 100%;
   display: flex;
   flex-flow: column;
@@ -101,5 +75,28 @@ export const RightContent = styled.div`
 
   p {
     font-size: 18px;
+  }
+
+  button {
+    width: fit-content;
+    padding: 15px 20px;
+    background-color: #040439;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+
+    &:hover {
+      background-color: #fff;
+      border: none;
+      color: #3f5efb;
+      box-shadow: 0px 10px 15px -3px rgba(51, 139, 255, 0.2);
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 500;
+    }
   }
 `;

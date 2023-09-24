@@ -7,31 +7,20 @@ export function Hero() {
     <Container>
       <Content>
         <LeftContent>
-          <div>
-            <img src="./perfil.png" alt="" />
-          </div>
+          <h1>
+            Transforme sua vida encontrando equilíbrio, cura e transformação!
+          </h1>
+          <p>
+            Pronto para começar a sua jornada de autodescoberta e crescimento?
+            Agende sua primeira consulta agora e dê o primeiro passo em direção
+            a uma vida mais saudável e equilibrada.
+          </p>
+          <button>Agendar consulta</button>
         </LeftContent>
         <RightContent>
           <div>
-            <h1>Chris Bellissimo</h1>
-            <h2>
-              Humanoterapeuta | Psicoterapeuta Holística | Radiestesia e
-              Radiônica | Mestre em Reiki | Aromateupa Flora
-            </h2>
-            <h2>
-              CRTH-BR <span>11118</span>
-            </h2>
-            <h2>
-              <span>🟢 Atendimento online</span>
-            </h2>
+            <img src="./logo2.png" alt="" />
           </div>
-          <p>
-            ✨ Ajudando pessoas a reconhecerem suas forças e valores,
-            despertando autoconfiança para buscarem o que as fazem felizes.
-          </p>
-          <button>
-            <p>Agendar consulta</p>
-          </button>
         </RightContent>
       </Content>
     </Container>
