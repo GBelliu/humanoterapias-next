@@ -16,6 +16,12 @@ export const Container = styled.div`
   p {
     color: black;
   }
+
+  @media (max-width: 767px) {
+    h1 {
+      text-align: center;
+    }
+  }
 `;
 export const Content = styled.div`
   max-width: 964px;
@@ -34,6 +40,9 @@ export const TextContainer = styled.div`
   max-width: 964px;
   width: 100%;
   gap: 15px;
+  @media (max-width: 767px) {
+    max-width: 350px;
+  }
 `;
 
 export const TextContent = styled.div`
