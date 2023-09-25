@@ -18,35 +18,8 @@ export const Content = styled.div`
   max-width: 964px;
   width: 100%;
   height: fit-content;
-  display: grid;
+  display: flex;
   gap: 50px;
   align-items: center;
   grid-template-columns: 1fr 1fr;
-`;
-export const LeftContent = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  div {
-    width: 100%;
-    height: 400px;
-    background-color: #dbdbdb;
-    display: flex;
-    img {
-      width: 100%;
-      object-fit: cover;
-    }
-  }
-`;
-export const RightContent = styled.div`
-  display: flex;
-  flex-flow: column;
-  gap: 10px;
-  h2 {
-    color: black;
-  }
-  p {
-    color: black;
-  }
 `;

@@ -1,39 +1,20 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
-  background-color: #fff;
-  height: fit-content;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  padding: 75px 0;
-  gap: 40px;
-  h1 {
-    color: black;
-  }
-  p {
-    color: black;
-  }
-`;
-export const Content = styled.div`
   max-width: 964px;
   width: 100%;
   height: fit-content;
-  display: flex;
-  flex-flow: column;
+  display: grid;
   gap: 50px;
   align-items: center;
   grid-template-columns: 1fr 1fr;
-`;
+  margin: 0 auto;
 
-export const TextContainer = styled.div`
-  display: flex;
-  flex-flow: column;
-  max-width: 964px;
-  width: 100%;
-  gap: 15px;
+  @media (max-width: 767px) {
+    display: flex;
+    max-width: 350px;
+    flex-flow: column;
+  }
 `;
 
 export const TextContent = styled.div`

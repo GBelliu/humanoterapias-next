@@ -1,37 +1,40 @@
 "use client";
 
-import { ReactNode } from "react";
-
-import {
-  Container,
-  Content,
-  ContentArea,
-  ImagePerfil,
-  LeftContent,
-  RightContent,
-  TopContent,
-} from "./styles";
+import { Container, Content, LeftContent, RightContent } from "./styles";
 
 export function Sobre() {
   return (
     <Container>
-      <ContentArea>
-        <ImagePerfil src="./charlesdobronx.jpg" alt="" />
-        {/* <span>SOBRE MIM</span> */}
-        <h1>Christiane Bellissimo Barbosa</h1>
-        <TopContent>
+      <h1>Sobre mim</h1>
+      <Content>
+        <LeftContent>
+          <div>
+            <img src="./perfil.png" alt="" />
+          </div>
+        </LeftContent>
+        <RightContent>
+          <div>
+            <h1>Chris Bellissimo</h1>
+            <h2>
+              Humanoterapeuta | Psicoterapeuta Holística | Radiestesia e
+              Radiônica | Mestre em Reiki | Aromateupa Flora
+            </h2>
+            <h2>
+              CRTH-BR <span>11118</span>
+            </h2>
+            <h2>
+              <span>🟢 Atendimento online</span>
+            </h2>
+          </div>
           <p>
-            Humanoterapeuta | Psicoterapias Holísticas | Radiestesia e Radiônica
-            | Master em Reiki
+            ✨ Ajudando pessoas a reconhecerem suas forças e valores,
+            despertando autoconfiança para buscarem o que as fazem felizes.
           </p>
-          <p>CRTH-BR: 11118</p>
-          <p>Atendimento on-line</p>
-        </TopContent>
-        <Content>
-          <LeftContent></LeftContent>
-          <RightContent></RightContent>
-        </Content>
-      </ContentArea>
+          <button>
+            <p>Agendar consulta</p>
+          </button>
+        </RightContent>
+      </Content>
     </Container>
   );
 }

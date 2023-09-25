@@ -7,7 +7,6 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 490px;
   /* background-image: url("./fundoheroedit.png");
   background-repeat: no-repeat;
   background-size: cover; */
@@ -33,6 +32,17 @@ export const Content = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 10px;
+  }
+
+  @media (max-width: 767px) {
+    display: flex;
+    max-width: 350px;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+    img {
+      display: none;
+    }
   }
 `;
 
@@ -74,6 +84,22 @@ export const LeftContent = styled.div`
       transform: scale(0.95) translateZ(0) !important;
     }
   }
+
+  @media (max-width: 767px) {
+    width: 100%;
+    h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: center;
+    }
+    button {
+      margin: 0 auto;
+    }
+  }
 `;
 export const RightContent = styled.div`
   width: 40%;
@@ -82,24 +108,7 @@ export const RightContent = styled.div`
   flex-flow: column;
   gap: 25px;
 
-  div {
-    display: flex;
-    flex-flow: column;
-    gap: 5px;
-    h1 {
-      font-size: 36px;
-      color: #fff;
-      font-weight: 600;
-    }
-    h2 {
-      font-size: 20px;
-      color: #fff;
-      font-weight: 400;
-      max-width: 800px;
-    }
-  }
-
-  p {
-    font-size: 18px;
+  @media (max-width: 767px) {
+    display: none;
   }
 `;
