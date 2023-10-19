@@ -23,16 +23,13 @@ export function Sobre() {
               CRTH-BR <span>11118</span>
             </h2>
             <h2>
-              <span>🟢 Atendimento online</span>
+              <span>Atendimento online</span>
             </h2>
           </div>
           <p>
-            ✨ Ajudando pessoas a reconhecerem suas forças e valores,
-            despertando autoconfiança para buscarem o que as fazem felizes.
+            Ajudando pessoas a reconhecerem suas forças e valores, despertando
+            autoconfiança para buscarem o que as fazem felizes.
           </p>
-          <button>
-            <p>Agendar consulta</p>
-          </button>
         </RightContent>
       </Content>
     </Container>

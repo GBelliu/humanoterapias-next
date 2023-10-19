@@ -2,10 +2,10 @@
 
 import { ReactNode } from "react";
 import { Container, Content } from "./styles";
-import { GridContent } from "../elements/GridContent";
-import { AltGridContent } from "../elements/AltGridContent";
+import { GridContent } from "../../components/elements/GridContent";
+import { AltGridContent } from "../../components/elements/AltGridContent";
 
-export function Reiki() {
+export default function Reiki() {
   return (
     <Container>
       <h1>Reiki</h1>

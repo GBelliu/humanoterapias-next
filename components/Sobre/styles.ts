@@ -20,7 +20,7 @@ export const Content = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 75px 0;
+  margin-top: 75px;
   gap: 25px;
 
   img {
@@ -31,7 +31,7 @@ export const Content = styled.div`
 `;
 
 export const LeftContent = styled.div`
-  width: 300px;
+  width: 40%;
   height: 100%;
   div {
     height: 400px;
@@ -49,7 +49,7 @@ export const RightContent = styled.div`
   display: flex;
   flex-flow: column;
   gap: 25px;
-
+  width: 60%;
   div {
     display: flex;
     flex-flow: column;
